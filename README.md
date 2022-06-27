@@ -17,18 +17,20 @@ For this company the data is important to improve the book recommendation. Howev
 A recommendation system can facilitate recommending books for sale or for exchange. This can facilitate a greater number of visits within the site, and in this way create a greater number of visitors. That's why it is important to have constant data collection for analysis and creation of data science projects.
 
 ## 3. Solution Strategy
+- **Step 1. Data collect:** Web scraping done on the [H&M clothing store website](https://www2.hm.com/en_us/men/products/jeans.html);
+- **Step 2: Data cleaning:** This step consisted of cleaning the data so that it could be stored properly;
+- **Step 3: Database:** Save clean data to a relational database.
+
+## 4. Conclusions
 
 
-## 4. Top 3 Data Insights
+## 5. Lessons Learned
+- Creation of ETL scripts;
+- Extraction of site data using the BeautifulSoup library;
+- Data manipulation tools: Pandas;
+- Creation of tables in SQLite3 database;
+- Script monitoring using log messages.
 
-
-## 5. Business Results
-
-
-## 6. Conclusions
-
-
-## 7. Lessons Learned
-
-
-## 8. Next Steps to Improve
+## 6. Next Steps to Improve
+- Collect data for 30 consecutive days;
+- Creation of a dashboard with the collected data.
